@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 960px;
+}
+
+main {
+    margin-top: 80px;
+}
+
+.hidden {
+    display: none;
+}
+
+.dark-mode {
+    background-color: #343a40;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #222;
+}
+
+.dark-mode .table-dark {
+    background-color: #222;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .form-inline, .table, .chart-container {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+#toggle-theme {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
